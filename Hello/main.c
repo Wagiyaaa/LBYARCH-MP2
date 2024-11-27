@@ -20,7 +20,7 @@ int main() {
 
 	for (int i = 0; i < h; i++) {
 		for (int j = 0; j < w; j++)
-			printf("%lf ", imgCvtGrayIntToDouble(image[i * w + j]));
+			printf("%0.2lf ", imgCvtGrayIntToDouble(image[i * w + j]));
 		printf("\n");
 	}
 
@@ -28,7 +28,7 @@ int main() {
 
 	for (int i = 0; i < h; i++) {
 		for (int j = 0; j < w; j++)
-			printf("%lf ", imgCvtGrayIntToDoubleC(image[i * w + j]));
+			printf("%0.2lf ", imgCvtGrayIntToDoubleC(image[i * w + j]));
 		printf("\n");
 	}
 
