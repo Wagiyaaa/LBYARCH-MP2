@@ -27,6 +27,13 @@ Link of tests: https://docs.google.com/spreadsheets/d/1iV-V2P77U_uW7-nzBrkqMWuYe
 ---
 
 ## Program Output and Correctness Check
+### 10 * 10
+![Program Output](images/10x10_ouput.JPG)
+### 100 * 100
+![Program Output](images/100x100_ouput.JPG)
+### 1000 * 1000
+![Program Output](images/1000x1000_ouput.JPG)
+
 
 
 ---
