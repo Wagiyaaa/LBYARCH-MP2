@@ -1,5 +1,5 @@
 # MP2
-LBYARCH 
+MADE BY:
 Baniqued, Lourenz Jhay G.
 De Guzman, Joaquin Nicholas C.
 
