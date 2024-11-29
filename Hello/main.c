@@ -51,7 +51,7 @@ int main() {
 		printf("\n");
 	}
 	clock_t end_time = clock();
-	double elapsed_time = (end_time - start_time) / CLOCKS_PER_SEC;
+	double elapsed_time = (double)(end_time - start_time) / CLOCKS_PER_SEC;
 
 
 	printf("C conversion for Checking: \n");
