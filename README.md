@@ -15,9 +15,9 @@ The execution time of the Assembly Function was measured for 10 * 10, 100 * 100,
 
 | Method          | Average Execution Time (seconds) |
 |-----------------|--------------------------|
-| 10*10 | [Insert time here]       |
-|  100*100  | [Insert time here]    |
-|  1000*1000  | [Insert time here]    |
+| 10*10 | 0.0064       |
+|  100*100  | 0.8682333    |
+|  1000*1000  | 64.9069    |
 
 Link of tests: https://docs.google.com/spreadsheets/d/1iV-V2P77U_uW7-nzBrkqMWuYemiLZkOcvrB35FCf-VA/edit?usp=sharing
 
