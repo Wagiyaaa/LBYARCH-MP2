@@ -1,6 +1,6 @@
 # MP2
 MADE BY:
-Baniqued, Lourenz Jhay G.
+Baniqued, Lourenz Jhay G. And
 De Guzman, Joaquin Nicholas C.
 
 
