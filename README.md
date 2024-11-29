@@ -1,4 +1,8 @@
 # MP2
+LBYARCH 
+Baniqued, Lourenz Jhay G.
+De Guzman, Joaquin Nicholas C.
+
 
 ## Overview
 The program is written in **C** and **x86-64 Assembly**, with functionality to process pixel values and convert them using Assembly Function.
