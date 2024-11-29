@@ -7,7 +7,7 @@ The program is written in **C** and **x86-64 Assembly**, with functionality to p
 
 ## Execution Time and Performance Analysis
 
-The execution time of the Assembly Function was measured for 10*10, 100*100, 1000*1000. The test is run 30 times to get the average execution time. Below are the results:
+The execution time of the Assembly Function was measured for 10 * 10, 100 * 100, 1000 * 1000. The test is run 30 times to get the average execution time. Below are the results:
 
 | Method          | Average Execution Time (seconds) |
 |-----------------|--------------------------|
