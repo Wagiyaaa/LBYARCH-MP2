@@ -11,9 +11,9 @@ The execution time of the Assembly Function was measured for 10*10, 100*100, 100
 
 | Method          | Average Execution Time (seconds) |
 |-----------------|--------------------------|
-| ** 10*10 **| [Insert time here]       |
-| ** 100*100 ** | [Insert time here]    |
-| ** 1000*1000 ** | [Insert time here]    |
+| 10*10 | [Insert time here]       |
+|  100*100  | [Insert time here]    |
+|  1000*1000  | [Insert time here]    |
 
 ### Analysis:
 
