@@ -39,3 +39,6 @@ Link of tests: https://docs.google.com/spreadsheets/d/1iV-V2P77U_uW7-nzBrkqMWuYe
 ---
 
 ## Short Videos
+
+---
+[Demo Video](video/demo.mp4)
