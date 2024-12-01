@@ -7,7 +7,7 @@
 extern double imgCvtGrayIntToDouble(int pixel);
 
 double imgCvtGrayIntToDoubleC(int pixel) {
-	double answer = (double) pixel / 255.0;
+	double answer = (double)pixel / 255.0;
 	return answer;
 }
 
@@ -20,7 +20,7 @@ int main() {
 
 	int* image = malloc((h * w) * sizeof(int));
 
-	
+
 
 	if (!image) {
 		printf("Failed to Allocate Memory");
@@ -33,7 +33,7 @@ int main() {
 	for (int i = 0; i < h; i++) {
 		for (int j = 0; j < w; j++) {
 			image[i * w + j] = rand() % 256; // Random value between 0 and 255
-			printf("%d ", image[i * w + j]); 
+			printf("%d ", image[i * w + j]);
 		}
 		printf("\n");
 	}
@@ -55,14 +55,17 @@ int main() {
 
 
 	printf("C conversion for Checking: \n");
+	start_time = clock();
 	for (int i = 0; i < h; i++) {
 		for (int j = 0; j < w; j++)
 			printf("%0.2lf ", imgCvtGrayIntToDoubleC(image[i * w + j]));
 		printf("\n");
 	}
+	end_time = clock();
 
+	double elapsed_timeC = (double)(end_time - start_time) / CLOCKS_PER_SEC;
 	// For Verifying
-	int all_match = 1; 
+	int all_match = 1;
 
 	for (int i = 0; i < h; i++) {
 		for (int j = 0; j < w; j++) {
@@ -74,7 +77,7 @@ int main() {
 				break;
 			}
 		}
-		if (!all_match) 
+		if (!all_match)
 			break;
 	}
 
@@ -87,6 +90,7 @@ int main() {
 
 
 	printf("Execution time of ASM function :%0.6lf seconds\n", elapsed_time);
+	printf("Execution time of C function :%0.6lf seconds\n", elapsed_timeC);
 	free(image);
 	return 0;
 }
