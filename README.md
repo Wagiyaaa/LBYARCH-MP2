@@ -49,3 +49,7 @@ Based from each of the test cases ran, it seems that the C equivalent function e
 
 ---
 [Demo Video](https://drive.google.com/file/d/1GLSPLI_hfYSpWvvjMgyHeOSh72mTszT2/view?usp=sharing)
+
+---
+## NOTE
+Make sure to modify the custom build tool command line for the imgCvtGrayIntToDouble.asm to your appropriate directory of nasm (d:\nasm\nasm -f win64 imgCvtGrayIntToDouble.asm).
