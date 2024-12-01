@@ -41,4 +41,4 @@ Link of tests: https://docs.google.com/spreadsheets/d/1iV-V2P77U_uW7-nzBrkqMWuYe
 ## Short Videos
 
 ---
-[Demo Video](video/demo.mp4)
+[Demo Video](https://drive.google.com/file/d/1GLSPLI_hfYSpWvvjMgyHeOSh72mTszT2/view?usp=sharing)
