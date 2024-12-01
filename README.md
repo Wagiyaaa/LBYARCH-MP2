@@ -11,13 +11,20 @@ The program is written in **C** and **x86-64 Assembly**, with functionality to p
 
 ## Execution Time and Performance Analysis
 
-The execution time of the Assembly Function was measured for 10 * 10, 100 * 100, 1000 * 1000. The test is run 30 times to get the average execution time. Below are the results:
+The execution time of the Assembly Function was measured for 10 * 10, 100 * 100, 1000 * 1000. The test is run 30 times to get the average execution time. Below are the results for the ASM function:
 
 | Method          | Average Execution Time (seconds) |
 |-----------------|--------------------------|
-| 10*10 | 0.0064       |
-|  100*100  | 0.8682333    |
-|  1000*1000  | 64.9069    |
+| 10*10 | 0.008033333333       |
+|  100*100  | 0.5066    |
+|  1000*1000  | 33.36216667    |
+
+Below are the results for the C function:
+| Method          | Average Execution Time (seconds) |
+|-----------------|--------------------------|
+| 10*10 | 0.01006666667       |
+|  100*100  | 0.4885    |
+|  1000*1000  | 33.29783333    |
 
 Link of tests: https://docs.google.com/spreadsheets/d/1iV-V2P77U_uW7-nzBrkqMWuYemiLZkOcvrB35FCf-VA/edit?usp=sharing
 
