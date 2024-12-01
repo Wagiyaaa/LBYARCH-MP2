@@ -29,7 +29,7 @@ Below are the results for the C function:
 Link of tests: https://docs.google.com/spreadsheets/d/1iV-V2P77U_uW7-nzBrkqMWuYemiLZkOcvrB35FCf-VA/edit?usp=sharing
 
 ### Analysis:
-
+Based from each of the test cases ran, it seems that the C equivalent function executed faster than the one implemented in Assembly. The only time Assembly was faster was when the size of the image was 10 pixels by 10 pixels. However, the difference in running times were not so great in the 100 x 100 and 1000 x 1000 trials. Morever, in some instances, the assembly function ran faster than the C function. This shows that perhaps some improvements can be made to the assembly code such that it requires less instructions to execute. However, going back to the fact that the average of all the trials were very close in execution time, one can conclude that at the very least the assembly equivalent function is nearly equal to that of the one implemented in C.
 
 ---
 
